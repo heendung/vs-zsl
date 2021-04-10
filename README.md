@@ -6,4 +6,4 @@ Official implementation for the paper [Revisiting Document Representations for L
   <img src="./figs/zsl_app.png" width="60%" height="5%"></center>
 </p>
 
-
+More updates will be available soon.
