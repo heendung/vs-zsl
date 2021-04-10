@@ -1,1 +1,1 @@
-# vs-zsl
+# Revisiting Document Representations for Large-Scale Zero-Shot Learning
