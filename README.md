@@ -6,4 +6,5 @@ Official implementation for the paper [Revisiting Document Representations for L
   <img src="./figs/zsl_app.png" width="60%" height="5%"></center>
 </p>
 
-More updates will be available soon.
+# Dataset
+- The (non-)filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the attached README for more deatils. 
