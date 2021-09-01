@@ -7,4 +7,4 @@ Official implementation for the paper [Revisiting Document Representations for L
 </p>
 
 # Dataset
-- The (non-)filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the attached README for more deatils. 
+The (non-) filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the attached README for more deatils. 
