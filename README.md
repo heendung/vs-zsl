@@ -8,7 +8,7 @@ Official implementation for the paper [Revisiting Document Representations for L
 
 ## Dataset
 #### Wikipedia Documents
-The (non-) filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the related README for more details. <br/><br/>
+The (non-) filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the related README for more details. <br/>
 
 #### Semantic Representations
 To extract the semantic representations from the (non-) filtered sentences, run
