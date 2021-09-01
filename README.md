@@ -29,7 +29,7 @@ Please refer to README on [here](https://drive.google.com/drive/u/0/folders/1oFo
 For AwA2 and aPY, we follow the [conventional settings](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) provided by (Xian et al., 2018a). <br/><br/>
 
 ## Code
-We leverage three Zero-Shot Learning models on our experiments:
+We leverage three Zero-Shot Learning models in our experiments:
 * DeViSE (Frome et al., 2013): DeViSE and DeViSE<sup>*</sup> are based on the implementation from [here](https://github.com/TristHas/GOZ).
 * EXEM (Changpinyo et al., 2020): We use its official [implementation](https://github.com/pujols/Zero-shot-learning-journal).
 * HVE (Liu et al., 2020): The official implementation can be found on [here](https://github.com/ShaoTengLiu/Hyperbolic_ZSL).
