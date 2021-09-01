@@ -7,16 +7,16 @@ Official implementation for the paper [Revisiting Document Representations for L
 </p>
 
 ## Dataset
-### Wikipedia Documents
+#### Wikipedia Documents
 The (non-) filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the related README for more details.
 
-### Semantic Representations
+#### Semantic Representations
 To extract the semantic representations from the (non-) filtered sentences, run
 
 ```
 CUDA_VISIBLE_DEVICES=0 python3 get_sem_rep.py --wiki_set data/21k_true_wiki_sents_vis_sec_clu --pool avg_pool --flt vis_sec_clu --max_seq_len 64 --max_sent all
 ```
-### Visual Features
+#### Visual Features
 We use 2,048-dimensional ResNet visual features(He et al., 2016) provided by(Xian et al., 2018a) [here](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly)
 
 ## Code
