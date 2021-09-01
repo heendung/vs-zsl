@@ -12,7 +12,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
         
     # wiki_set    
-    parser.add_argument('--wiki_set', default='21k_true_wiki_sents_vis_sec_clu', help='(non)-filtered Wikipedia dataset')
+    parser.add_argument('--wiki_set', default='data/21k_true_wiki_sents_vis_sec_clu', help='(non)-filtered Wikipedia dataset')
 
     # pooling
     parser.add_argument('--pool', default='avg_pool', help='1) cls_pool: A [CLS] token used for the sentence embedding, 2) avg_pool: averaging words for the sentence embedding ')
