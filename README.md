@@ -8,7 +8,7 @@ Official implementation for the paper [Revisiting Document Representations for L
 
 ## Dataset
 #### Wikipedia Documents
-The (non-) filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please read the related README for more details.
+The (non-) filtered Wikipedia sentences are available on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw). Please refer to the related README for more details.
 
 #### Semantic Representations
 To extract the semantic representations from the (non-) filtered sentences, run
@@ -21,7 +21,11 @@ CUDA_VISIBLE_DEVICES=0 python3 get_sem_rep.py --wiki_set data/21k_true_wiki_sent
 We use the [ResNet visual features](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) (He et al., 2016) provided by (Xian et al., 2018a).
 
 #### Visual Attributes
-For AwA2 and aPY, we use [visual attributes](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) provided by (Xian et al., 2018a). <br/><br/>
+For AwA2 and aPY, we use [visual attributes](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) provided by (Xian et al., 2018a). 
+
+#### Data Split
+Please refer to README on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw) how to split ImageNet into our settings (i.e. 2-Hop, 3-Hop, ALL).
+For AwA2 and aPY, we follow the [conventional settings](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly). <br/><br/>
 
 ## Code
 We leverage three Zero-Shot Learning models on our experiments:
