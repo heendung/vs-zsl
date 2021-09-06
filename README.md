@@ -5,7 +5,6 @@ Official implementation for the paper [Revisiting Document Representations for L
 <p align="center">
   <img src="./figs/zsl_app.png" width="90%" height="5%"></center>
 </p>
-<br/>
 
 ## Dataset
 #### Wikipedia Documents
