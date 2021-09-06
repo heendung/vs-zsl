@@ -36,6 +36,7 @@ We leverage three Zero-Shot Learning models in our experiments:
 
 ## Citation
 Please cite the following paper if you find the code / data useful.
+```
 @inproceedings{kil2021revisiting,
   title={Revisiting Document Representations for Large-Scale Zero-Shot Learning},
   author={Kil, Jihyung and Chao, Wei-Lun},
@@ -43,4 +44,4 @@ Please cite the following paper if you find the code / data useful.
   pages={3117--3128},
   year={2021}
 }
-
+```
