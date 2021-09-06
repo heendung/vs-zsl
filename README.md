@@ -33,3 +33,14 @@ We leverage three Zero-Shot Learning models in our experiments:
 * DeViSE (Frome et al., 2013): DeViSE and DeViSE<sup>*</sup> are based on the implementation from [here](https://github.com/TristHas/GOZ).
 * EXEM (Changpinyo et al., 2020): We use its official [implementation](https://github.com/pujols/Zero-shot-learning-journal).
 * HVE (Liu et al., 2020): The official implementation can be found on [here](https://github.com/ShaoTengLiu/Hyperbolic_ZSL).
+
+## Citation
+Please cite the following paper if you find the code / data useful.
+@inproceedings{kil2021revisiting,
+  title={Revisiting Document Representations for Large-Scale Zero-Shot Learning},
+  author={Kil, Jihyung and Chao, Wei-Lun},
+  booktitle={Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  pages={3117--3128},
+  year={2021}
+}
+
