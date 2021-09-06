@@ -32,7 +32,7 @@ For AwA2 and aPY, we follow the [proposed split](https://www.mpi-inf.mpg.de/depa
 We leverage three Zero-Shot Learning models in our experiments:
 * DeViSE (Frome et al., 2013): DeViSE and DeViSE<sup>*</sup> are based on the implementation from [here](https://github.com/TristHas/GOZ).
 * EXEM (Changpinyo et al., 2020): We use its official [implementation](https://github.com/pujols/Zero-shot-learning-journal).
-* HVE (Liu et al., 2020): The official implementation can be found on [here](https://github.com/ShaoTengLiu/Hyperbolic_ZSL).
+* HVE (Liu et al., 2020): The official implementation can be found on [here](https://github.com/ShaoTengLiu/Hyperbolic_ZSL).<br/><br/>
 
 ## Citation
 If you find the code and data useful, please cite the following paper:
