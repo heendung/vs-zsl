@@ -24,7 +24,7 @@ We use the [ResNet visual features](https://www.mpi-inf.mpg.de/departments/compu
 For AwA2 and aPY, we use [visual attributes](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) provided by (Xian et al., 2018a). 
 
 #### Data Split
-Please refer to README on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw) how to split ImageNet into our settings (i.e. 2-Hop, 3-Hop, ALL).
+Please refer to README on [here](https://drive.google.com/drive/u/0/folders/1oFo4CsYcU0t7EOb9DwJX26JQgT_i9BIw) how to split ImageNet into our settings (i.e., 2-Hop, 3-Hop, ALL).
 
 For AwA2 and aPY, we follow the [proposed split](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) provided by (Xian et al., 2018a). <br/><br/>
 
