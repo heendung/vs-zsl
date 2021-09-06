@@ -35,7 +35,7 @@ We leverage three Zero-Shot Learning models in our experiments:
 * HVE (Liu et al., 2020): The official implementation can be found on [here](https://github.com/ShaoTengLiu/Hyperbolic_ZSL).
 
 ## Citation
-Please cite the following paper if you find the code / data useful.
+If you find the code / data useful, please cite the following paper:
 ```
 @inproceedings{kil2021revisiting,
   title={Revisiting Document Representations for Large-Scale Zero-Shot Learning},
