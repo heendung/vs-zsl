@@ -241,45 +241,8 @@ if args.d_name=='imagenet':
 
     test_accs = []
     acc_met = 'per_class'
-    if args.split=='1k':
-        bs = 180
-        num_class = len(s_te)
-        ds = Dataset(os.path.join(args.data_dir,'1k'))
-        dl = DataLoader(ds, batch_size=bs, shuffle=False, sampler=SequentialSampler(ds), num_workers=0)
-        per_class_acc = [None] * num_class
-        
-        with torch.no_grad():
-            for j, batch in enumerate(tqdm(dl)):
-                x = batch[0]
-                y = batch[1]
-                out = validate(x.cuda(), s_tr.cuda(), None, model)
-                tmp = torch.topk(out, 5)[1] == torch.unsqueeze(y.cuda(), dim=1)
-                tmp = tmp.float()
-                if acc_met =='per_samp':
-                    if j == 0:
-                        per_samp_test_accs = tmp
-                    else:
-                        per_samp_test_accs = torch.cat((per_samp_test_accs, tmp), dim=0)
-                    
-                elif acc_met =='per_class':
-                    for y_ind in range(len(y)):
-                        if per_class_acc[y[y_ind]] == None:
-                            per_class_acc[y[y_ind]] = torch.unsqueeze(tmp[y_ind], dim=0)
-                        else:
-                            per_class_acc[y[y_ind]] = torch.cat((per_class_acc[y[y_ind]], torch.unsqueeze(tmp[y_ind], dim=0)), dim=0)
-
-            if acc_met =='per_samp':
-                final_per_samp_test_acc = torch.cumsum(per_samp_test_accs.mean(0)*100, 0).tolist()                                   
-                print("per_samp_accuracy: ", final_per_samp_test_acc)
-            elif acc_met =='per_class':
-                for acc_ind in range(len(per_class_acc)):
-                    per_class_acc[acc_ind] = per_class_acc[acc_ind].mean(0)
-
-                per_class_acc = torch.stack(per_class_acc)
-                final_per_class_test_acc = torch.cumsum(per_class_acc.mean(0)*100,0).tolist()
-                print("1k_per_class_top_1_5_accuracy: ", final_per_class_test_acc)
-   
-    elif args.split=='3hop':
+    
+    if args.split=='3hop':
         first=True
         bs=180
         num_class = len(s_te)
