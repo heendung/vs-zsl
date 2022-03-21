@@ -8,9 +8,6 @@ class Dataset:
         if '1k' in split_name:
             self.images = torch.load(split_name + '_x.pt')
             self.labels = torch.load(split_name + '_y.pt')
-        if 'our_2hop' in split_name:
-            self.images = torch.load(os.path.join('/local/scratch/jihyung', split_name + '_x.pt'))
-            self.labels = torch.load(os.path.join('/local/scratch/jihyung', split_name + '_y.pt'))
         elif 'our_3hop' in split_name:
             self.images = torch.load(split_name + 'x.pt')
             self.labels = torch.load(split_name + 'y.pt')
