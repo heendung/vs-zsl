@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=0 python3 get_sem_rep.py --wiki_set data/21k_true_wiki_sent
 #### Visual Features
 We use the [ResNet visual features](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) (He et al., 2016) provided by (Xian et al., 2018a).
 
-[Visual features and labels](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/kil_5_buckeyemail_osu_edu/Ep5hL2cYY7dNoMXGh--dXisBirfkyQ4TmV1orWPl73xW2w?e=jJa6Wp) of our 1K/2-Hop/3-Hop/ALL split
+[Visual features and labels](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/kil_5_buckeyemail_osu_edu/Ep5hL2cYY7dNoMXGh--dXisBirfkyQ4TmV1orWPl73xW2w?e=jJa6Wp) of our 1K/2-Hop/3-Hop/ALL split.
 
 #### Visual Attributes
 For AwA2 and aPY, we use [visual attributes](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) provided by (Xian et al., 2018a). 
